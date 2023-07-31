@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/raslani-ancient-script');
+/* font-family: 'Raslani Ancient Script', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 900;
+    scroll-behavior:smooth;
+    list-style: none; 
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+}
+.nav_container{
+    background-color: rgba(89, 130, 252, 0.151);
+    background-image: linear-gradient(180deg, rgba(213, 231, 243, 0.753) 90%, rgba(41, 53, 86, 0.945) 100%), url(./img/hojasazul.svg);
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+}
+.logo{
+    font-family: 'Raslani Ancient Script', sans-serif;
+}
+.nav_links >li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_links >li>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+    border-bottom: 2px solid #323159;
+    border-top: 2px solid #323159;
+    height: 450px;
+}
+.hero_pajaro{
+    width: 40%;
+    align-self: flex-end;
+}
+.hero_text{
+    align-self: center;
+}
+.hero_title{
+    font-family: 'Raslani Ancient Script', sans-serif;
+    font-size: 80px;
+    color: #323159;
+}
+.btn_hero button{
+    margin-top: 20px;
+    margin-left: 310px;
+    padding: 5px 15px;
+    border: 2px solid #323159;
+    color: black;
+    border-radius: 10px;
+    background-color: #e65290;
+    cursor: pointer;    
+}
+.hero_hojas{
+    width: 40%;
+    align-self: flex-start;
+}
+.cards_title{
+    margin: 40px 0px 0px 70px ; 
+    font-weight: bolder;
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 50px;    
+}
+.cards_item{
+    background-image: url(./img/hojasrosa.svg);
+    background-size: cover;       
+    width: 30%;
+    overflow: hidden;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 14px 16px 28px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 14px 16px 28px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 14px 16px 28px 0px rgba(0,0,0,0.55);
+    border-radius: 10px;
+    border : 1px solid #323159;
+    padding: 2em;
+}
+.cards_glass{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+.cards_subtitle{
+    margin-bottom: 15px;
+}
+.cards_paragraph{
+    line-height: 23px;
+}
+.btn_cards button{
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: 2px solid #323159;
+    color: black;
+    border-radius: 10px;
+    background-color: #e65290;
+    cursor: pointer;
+}
+.informacion{        
+    background-image: url(./img/hojas.svg);
+    background-size: cover;
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.informacion_title{
+    font-weight: bolder;
+}
+.informacion_paragraph{
+    padding: 2em;
+    line-height: 30px;
+    font-size: 18px;
+}
+.final{
+    background-color: rgba(89, 130, 252, 0.151);
+    background-image: linear-gradient(0deg, rgba(213, 231, 243, 0.753) 90%, rgba(41, 53, 86, 0.945) 100%), url(./img/hojasazul.svg);
+    background-size: contain;
+    padding: 0.5%;
+}
+.final_container{    
+    display: flex;    
+    justify-content: space-evenly;
+}
+.final_links >li{
+    padding: 5px;
+}
+.final_links >li>a{
+    text-decoration: none;
+    color: #000;
+}
+.final_title{
+    font-weight: bolder;
+}
+.fa-brands{
+    font-size: 25px;
+}
+.firma{
+    font-size: 14px;
+    text-align: center;
+}
