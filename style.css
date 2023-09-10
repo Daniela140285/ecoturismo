@@ -15,6 +15,7 @@
 .cabecera{
     display: flex;
     flex-direction: column;
+    background-color: #e2ebf0a9;
 }
 .nav_container{
     background-color: rgba(89, 130, 252, 0.151);
@@ -40,7 +41,7 @@
 }
 .hero{
     display: flex;
-    border-bottom: 2px solid #323159;
+    border-bottom: 4px solid #323159;
     border-top: 2px solid #323159;
     height: 90vh;
 }
@@ -70,9 +71,13 @@
     width: 40%;
     align-self: flex-start;
 }
-.cards_title{
-    margin: 40px 0px 0px 70px ; 
-    font-weight: bolder;
+main{
+    background-color: #e2ebf0a9;
+}
+.title{
+    padding: 40px 0px 0px 70px ; 
+    font-weight: bolder;   
+    font-size: 2rem; 
 }
 .cards{
     display: flex;
@@ -122,20 +127,17 @@
     cursor: pointer;
 }
 .informacion{        
-    background-image: url(./img/hojas.svg);
+    background-image: linear-gradient(to top, #cfd9df75 0%, #e2ebf086 100%), url(./img/hojas.svg);
     background-size: cover;
     width: 100%;
-    padding: 80px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-}
-.informacion_title{
-    font-weight: bolder;
 }
 .informacion_paragraph{
     padding: 2em;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 .final{
     background-color: rgba(89, 130, 252, 0.151);
@@ -163,4 +165,41 @@
 .firma{
     font-size: 14px;
     text-align: center;
+}
+
+/* ACTIVIDADES*/
+.actividades_container{
+    background-image: linear-gradient(to top, #cfd9dff8 0%, #e2ebf0a9 100%), url(./img/hojasrosa.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.actividades_title{
+    font-size: 2.5rem;
+    padding: 20px;    
+}
+.actividades_subtitle{
+    font-size: 2rem;
+    margin: 0 30px;
+    text-align: center;
+    border-top: 2px solid #323159;
+    padding-top: 20px;
+}
+.actividades_container h4{
+    font-size: 1.5rem;
+    margin: 20px 0 0 60px;
+}
+.list_container{
+    display: flex;
+    margin-left: 30px;
+    padding: 30px;
+}
+.list_container ul{
+    margin-left: 50px;
+}
+.list_container ul li{
+    line-height: 50px;
+    margin-left: 30px; 
+    list-style:circle;
+    font-size: 1.2rem;
+   
 }
